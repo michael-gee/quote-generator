@@ -6,6 +6,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* Quote Container Box */
 .quotebox {
   background-color: white;
   border-radius: 1%;
@@ -13,10 +14,6 @@ body {
   margin: 150px auto;
   margin-bottom: 0;
   padding: 30px 50px 50px 30px;
-}
-
-.right-quotation-mark {
-  float: right;
 }
 
 /* Headings */
@@ -59,6 +56,10 @@ h5 {
 }
 
 /* Font-Awesome Icons Styles */
+.right-quotation-mark {
+  float: right;
+}
+
 .fa-quote-left {
   color: black;
 }
