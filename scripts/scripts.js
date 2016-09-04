@@ -45,6 +45,7 @@ function buttonClick() {
       color: newColor
    }, 1000);
   
+ // Quote Generator through API 
  $.getJSON("http://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?", function(data){
    $("#quote").fadeIn();
    $("#quote").html("<h2>" + data.quoteText + "</h2>");
