@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+/* ***** BODY ***** */
 body {
   background-color: black;
   font-family: "Raleway", sans-serif;
@@ -18,6 +19,7 @@ body {
   float: right;
 }
 
+/* Headings */
 h2 {
   margin: 10px;
   text-align: center;
@@ -31,6 +33,12 @@ h4 {
   padding-top: 15px;
 }
 
+h5 {
+  margin: 0;
+  margin-top: 15px;
+}
+
+/* DIV that twitter/"New Quote" button are inside */
 .buttons {
   padding-bottom: 35px;
 }
@@ -50,31 +58,7 @@ h4 {
   padding-top: 5px;
 }
 
-.quote-button {
-  padding: 14px 20px 14px 20px;
-  border-radius: 5%;
-  background-color: black;
-  color: white;
-  border-color: black;
-}
-
-h5 {
-  margin: 0;
-  margin-top: 15px;
-}
-
-.foot-note {
-  max-width: 450px;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-}
-
-.foot-note a:link, a:visited {
-  color: white;
-  text-decoration: none;
-}
-
+/* Font-Awesome Icons Styles */
 .fa-quote-left {
   color: black;
 }
@@ -85,4 +69,26 @@ h5 {
 
 .fa-twitter-square {
   color: black;
+}
+
+/* "NEW QUOTE" Button */
+.quote-button {
+  padding: 14px 20px 14px 20px;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+/* FOOTER */
+.foot-note {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.foot-note a:link, a:visited {
+  color: white;
+  text-decoration: none;
 }
