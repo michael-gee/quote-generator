@@ -27,10 +27,10 @@ function buttonClick() {
   //Quote Button bgColor and Border color
   $(".quote-button").animate({
         backgroundColor: newColor
-   }, 500);
+   }, 1000);
   $(".quote-button").animate({
         borderColor: newColor
-   }, 500);
+   }, 1000);
   
   // Font Awesome Icons Change Color
   $(".twitter-icon").animate({
