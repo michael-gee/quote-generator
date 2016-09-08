@@ -49,6 +49,10 @@ h5 {
   padding-left: 10px;
 }
 
+.twitter-icon:hover {
+  opacity: 0.8;
+}
+
 .quote {
   float: right;
   padding-right: 15px;
@@ -80,6 +84,10 @@ h5 {
   color: white;
   border-color: black;
   cursor: pointer;
+}
+
+.quote-button:hover {
+  opacity: 0.8;
 }
 
 /* FOOTER */
